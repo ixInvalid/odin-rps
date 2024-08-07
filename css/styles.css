@@ -16,10 +16,12 @@ body {
 
 .header {
     height: 100px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #FFF;
+    position: relative;
 }
 
 .title {
@@ -28,7 +30,7 @@ body {
 }
 
 .scoreboard {
-    height: 25vh;
+    height: 30vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -80,7 +82,7 @@ body {
 }
 
 .result {
-    height: 10vh;
+    height: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,7 +93,7 @@ body {
     font-weight: bold;
 }
 
-.selection {
+.selection .container {
     height: calc(65vh - 200px);
     display: flex;
     justify-content: center;
