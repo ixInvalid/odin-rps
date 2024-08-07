@@ -4,4 +4,16 @@ function getComputerSelection() {
     return selection[random];
 }
 
-console.log(getComputerSelection())
+function getHumanSelection() {
+    let validSelection = ["ROCK", "PAPER", "SCISSORS"];
+    let selection = "";
+
+    while (!validSelection.includes(selection)) {
+        selection = prompt("Choose ROCK, PAPER, or SCISSORS:").toUpperCase();
+    }
+
+    return selection;
+}
+
+
+console.log(getHumanSelection())
