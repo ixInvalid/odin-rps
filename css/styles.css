@@ -111,10 +111,9 @@ body {
     cursor: pointer;
 }
 
-.img {
-    height: 250px;
-    width: 250px;
-    border: solid;
+img {
+    height: 200px;
+    width: 200px;
 }
 
 .caption {
