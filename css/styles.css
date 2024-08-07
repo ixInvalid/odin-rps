@@ -107,6 +107,10 @@ body {
     align-items: center;
 }
 
+.box {
+    cursor: pointer;
+}
+
 .img {
     height: 250px;
     width: 250px;
