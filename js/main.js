@@ -29,13 +29,13 @@ function playGame(){
         let result;
 
         if (humanSelection === computerSelection) {
-            result = 'Tie!';
+            result = `You Tied! Human: ${humanSelection} Computer: ${computerSelection}`;
         } else if (winningCombinations[humanSelection] === computerSelection) {
             humanScore++;
-            result = `You Win! Human: ${humanSelection} Computer: ${computerSelection}.`;
+            result = `You Win! Human: ${humanSelection} Computer: ${computerSelection}`;
         } else {
             computerScore++;
-            result = `You Lose! Human: ${humanSelection} Computer: ${computerSelection}.`;
+            result = `You Lose! Human: ${humanSelection} Computer: ${computerSelection}`;
         }
 
         console.log(result);
@@ -56,3 +56,5 @@ function playGame(){
         console.log("TIED!");
     }
 }
+
+playGame();
